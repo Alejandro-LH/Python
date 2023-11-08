@@ -389,3 +389,63 @@ elif cant_producto - ret_producto < 5:
     print("¡Cuidado! se esta agotando este producto")
 ```
 
+#### Repaso
+
+```python
+# Definir Variables
+nombre1 = "Diana Jazmin"
+nombre2 = "Jahir Alejandro"
+
+sueldo1 = 1200.00
+sueldo2 = 1500.00
+
+s = "-"
+
+# Concatenar 
+salario1 = f"El salario de {nombre1} es de ${sueldo1}"
+salario2 = f"El salario de {nombre2} es de ${sueldo2}"
+
+print(salario1)
+print(salario2)
+print(s * 152)
+
+
+# Listas
+lista1 = [salario1, salario2, "Esto es una lista"]
+
+print(lista1)
+print(s * 152)
+
+
+# Tuplas
+tupla1 = (salario1, salario2, "Esto es una tupla")
+
+print(tupla1)
+print(s * 152)
+
+
+# Conjuntos
+conjunto1 = {salario1, salario2, "Esto es un conjunto"}
+
+print(conjunto1)
+print(s * 152)
+
+
+# Diccionarios
+diccionario1 = {
+    'salario1': salario1,
+    'salario2': salario2,
+    'mensaje': "Esto es un diccionario"
+}
+
+print(diccionario1)
+print(s * 152)
+
+
+# Operadores Áritmeticos
+salarioTotal = 0
+salarioTotal = sueldo1 + sueldo2
+
+print(salarioTotal)
+print(s * 152)
+```
